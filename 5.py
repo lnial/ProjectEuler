@@ -4,15 +4,19 @@ flagEnd = 0
 while 1:
   quotient += 1
   count = 0
-  for i in range(1, 10):
+  for i in range(1, 11):
     if quotient % i == 0:
       count += 1
-    if count == 9:
+    if count == 10:
       flagEnd = 1
-  if flagEnd == 9:
+  if flagEnd == 1:
     break
 
 print quotient
+
+#for i in range(1, 10):
+  #print i
+
 
 
 #quotient = 10
