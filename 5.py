@@ -1,5 +1,13 @@
 import time
 
+class TimePrintDebug():
+  #def __init__(self):
+  #if init time, ta, tb
+  ta = datetime.datetime.now()
+  self.time = tb - ta
+  if self.time >= 1:
+    print self.value
+
 quotient = 10
 flagEnd = 0
 degug = TimePrintDebug()
@@ -23,13 +31,6 @@ while 1:
 print quotient
 
 
-class TimePrintDebug()
-  def __init__(self, time, ta, tb, value)
-  #if init time, ta, tb
-  ta = datetime.datetime.now()
-  self.time = tb - ta
-  if self.time >= 1:
-    print self.value
 
 
 #for i in range(1, 10):
