@@ -7,7 +7,8 @@ def foo():
   t.end()
   print t.s
 
-  #print t.getTime()
+  ##print t.getTime()
+  #sa
 
 foo()
 
