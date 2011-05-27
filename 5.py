@@ -1,33 +1,38 @@
-quotient = 100
+quotient = 1L
 flagEnd = 0
 
-#print len(list1)
-
-#count = 1
-#for i in range(1, 21):
-  #count = count * i
 
 
 while 1:
-  quotient += 1
-  count = 0
-
+  flagEnd = 0
   for i in range(1, 21):
-    if quotient % i == 0:
-      count += 1
-    if count == 20:
-      flagEnd = 1
-      break
-  if flagEnd == 1:
+    flagEnd += (quotient % i)
+
+  if flagEnd == 0:
     break
+  quotient += 1
+  print quotient
 
 print quotient
 
+#great
+#def delbart(t,n):
+  #if n > 0:
+    #if not (t%n):
+      #if delbart(t, n-1):
+        #return True
+      #else:
+        #return False
+    #else:
+      #return False
+  #else:
+    #return True
 
+#i = 20
+#while not delbart(i,20):
+  #i +=20
 
-
-#for i in range(1, 10):
-  #print i
+#print i 
 
 
 
