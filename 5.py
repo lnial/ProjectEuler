@@ -1,27 +1,25 @@
-import time
-import mtime
-
-quotient = 10
+quotient = 100
 flagEnd = 0
 
+#print len(list1)
+
+#count = 1
+#for i in range(1, 21):
+  #count = count * i
+
+
 while 1:
-  t = mtime.mtime()
   quotient += 1
   count = 0
-
 
   for i in range(1, 21):
     if quotient % i == 0:
       count += 1
     if count == 20:
       flagEnd = 1
+      break
   if flagEnd == 1:
     break
-
-  t.end()
-  if int(t.s) > 1:
-    print quotient
-    t.start()
 
 print quotient
 
