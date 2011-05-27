@@ -1,7 +1,4 @@
 quotient = 1L
-flagEnd = 0
-
-
 
 while 1:
   flagEnd = 0
