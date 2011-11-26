@@ -11,8 +11,7 @@ for line in open('input18.txt', 'r'):
     line_dir.append(line_arr)
     
 
-
-
+pass
 
     #if len(line_arr) != 1:
         #print line_arr[next_index], line_arr[next_index + 1]
