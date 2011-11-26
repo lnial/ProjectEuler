@@ -31,12 +31,3 @@ for i in xrange(len(line_dir), 0 , -1):
         #print j
 
 
-class tedhst():
-    """class documentation"""
-    def __init__(self, a):
-        """__init__ documentation"""
-        pass
-
-
-
-
